@@ -1,0 +1,13 @@
+[buildPlans.iosevka-nf]
+family = "Iosevka nf Custom"
+spacing = "normal"
+serifs = "sans"
+no-cv-ss = true
+export-glyph-names = false
+no-ligation = true
+
+  [buildPlans.iosevka-nf.variants]
+  inherits = "ss04"
+
+  [buildPlans.iosevka-nf.variants.design]
+  zero = "dotted"

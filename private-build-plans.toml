@@ -11,3 +11,6 @@ export-glyph-names = false
 
   [buildPlans.iosevka-nf.variants.design]
   zero = "dotted"
+
+[collectPlans.iosevka-nf]
+from = ["iosevka-nf"]

@@ -12,5 +12,24 @@ export-glyph-names = false
   [buildPlans.iosevka-nf.variants.design]
   zero = "dotted"
 
+[buildPlans.iosevka-nf-windblows-extended]
+family = "Iosevka nf Custom Windblows Extended"
+spacing = "fixed"
+serifs = "sans"
+no-cv-ss = true
+export-glyph-names = false
+#no-ligation = true # not needed with fixed spacing?
+
+  [buildPlans.iosevka-nf-windblows-extended.variants]
+  inherits = "ss04"
+
+  [buildPlans.iosevka-nf-windblows-extended.variants.design]
+  zero = "dotted"
+
+[buildPlans.iosevka-nf-windblows-extended.widths.Normal]
+shape = 600
+menu = 5
+css = "normal"
+
 [collectPlans.iosevka-nf]
 from = ["iosevka-nf"]
